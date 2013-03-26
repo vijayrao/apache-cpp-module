@@ -165,7 +165,7 @@ public:
     inline    apr_table_t *notes() const { return mRequest->notes; }
     
     /** \return The content type of the request **/
-    const char *content_type(char *type = NULL) const 
+    const char *content_type(const char *type = NULL) const 
     { return type ? (mRequest->content_type = 
                      apr_pstrdup(mRequest->pool, type)) : 
         mRequest->content_type; }
