@@ -128,7 +128,7 @@ extern "C" {
         apr_dso_handle_sym_t sosymbol;
 	ApacheServerRec *pServer = new ApacheServerRec(server);
         cpp_factory_t *cur_handler;
-	int n_len;
+	apr_ssize_t n_len;
 	const void *n;
 	void *p;
         char *name;
