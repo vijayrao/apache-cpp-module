@@ -7,8 +7,7 @@ LoadCPPHandler test_input_filter @CPLUSPLUS_BUILDDIR@/example/input_filter/.libs
 
 LogLevel Info
 <Location />
-        Order allow,deny
-        Allow from all
+	Require all granted
 </Location>
 
 AddCPPConnectionInputFilter test_input_filter
