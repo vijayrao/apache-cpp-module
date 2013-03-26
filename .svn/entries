@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="157"
+   name=""
+   committed-date="2008-07-08T00:09:55.006377Z"
+   url="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus/trunk"
+   last-author="johnksterling"
+   kind="dir"
+   uuid="33a4bdb1-fc2c-0410-adb7-ce8b349632fb"
+   repos="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus"
+   revision="157"/>
+<entry
+   name="test"
+   kind="dir"/>
+<entry
+   committed-rev="139"
+   name="Doxyfile"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2005-04-03T18:30:26.000000Z"
+   checksum="f4bcb26e64d4fdfaaf7ad5d38c0f8ce0"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+<entry
+   name="include"
+   kind="dir"/>
+<entry
+   committed-rev="64"
+   name="AUTHORS"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2002-04-12T17:47:49.000000Z"
+   checksum="f1dfdc177556af4541609212c7b00d1e"
+   last-author="gr84b8"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+<entry
+   committed-rev="153"
+   name="configure.in"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2007-03-31T18:02:20.000000Z"
+   checksum="c4fa965e81d9a874193e88a3e90e54bc"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+<entry
+   committed-rev="111"
+   name="ChangeLog"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2004-05-12T01:36:10.000000Z"
+   checksum="bf51d00c9d517fff362438f4b3f68d3d"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+<entry
+   name="src"
+   kind="dir"/>
+<entry
+   name="docs"
+   kind="dir"/>
+<entry
+   committed-rev="149"
+   name="mod_cplusplus.vcproj"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2005-10-15T13:22:29.000000Z"
+   checksum="bab5ac40270e9f4a32be1c5288d00e1c"
+   last-author="francisandre"
+   kind="file"
+   prop-time="2008-07-08T00:11:21.000000Z"/>
+<entry
+   name="example"
+   kind="dir"/>
+<entry
+   committed-rev="25"
+   name="README"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2001-05-14T04:00:31.000000Z"
+   checksum="07781059cfba4c8477b7c52f328a5253"
+   last-author="gr84b8"
+   kind="file"
+   prop-time="2008-07-08T00:11:21.000000Z"/>
+<entry
+   committed-rev="74"
+   name="mod_cplusplus.kdevprj"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2002-04-22T03:44:46.000000Z"
+   checksum="02d8d6df9b111fd217c0794cec78042a"
+   last-author="gr84b8"
+   kind="file"
+   prop-time="2008-07-08T00:11:21.000000Z"/>
+<entry
+   committed-rev="16"
+   name="commit.pl"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2001-05-14T03:02:44.000000Z"
+   checksum="6fa6254ecbdb564acb85157fa526a5c6"
+   last-author="gr84b8"
+   kind="file"
+   prop-time="2008-07-08T00:11:21.000000Z"/>
+<entry
+   committed-rev="127"
+   name="INSTALL"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2004-11-27T03:39:10.000000Z"
+   checksum="6d3c5ba24ea1c7f404363207a0a30006"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:21.000000Z"/>
+<entry
+   committed-rev="19"
+   name="COPYING"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2001-05-14T03:27:44.000000Z"
+   checksum="3b20ce77f2fe692f5944b57b52b92e45"
+   last-author="gr84b8"
+   kind="file"
+   prop-time="2008-07-08T00:11:21.000000Z"/>
+<entry
+   committed-rev="138"
+   name="Makefile.am"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2005-03-26T13:24:26.000000Z"
+   checksum="372cd7de543a443a4377436eba116973"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:21.000000Z"/>
+<entry
+   committed-rev="110"
+   name="autogen.sh"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2004-05-07T23:26:24.000000Z"
+   checksum="0968898f09feee841c87ba6183515d5b"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:21.000000Z"/>
+<entry
+   committed-rev="24"
+   name="NEWS"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2001-05-14T03:49:58.000000Z"
+   checksum="c07dc877a80a5c5980b32e6b18658de6"
+   last-author="gr84b8"
+   kind="file"
+   prop-time="2008-07-08T00:11:21.000000Z"/>
+<entry
+   committed-rev="79"
+   name="mod_cplusplus.dsp"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2002-06-19T14:11:07.000000Z"
+   checksum="d2a9c8eae172134021b75c1da6e2512d"
+   last-author="gr84b8"
+   kind="file"
+   prop-time="2008-07-08T00:11:21.000000Z"/>
+</wc-entries>

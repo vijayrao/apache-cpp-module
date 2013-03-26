@@ -1,0 +1,54 @@
+- Apache-Test assumes that any core file found under t/ was generated
+  by httpd, (and suggests the gdb invoking command) which is incorrect
+  in some cases. For example t/TEST -config, which is run by bin/perl,
+  may dump core as well.
+
+- consider not using the __DIE__ sighandler, but instead wrap the
+  potentially failing code in the eval trap blocks.
+
+- print STDERR is buffered in test handlers, whereas warn() works
+  normally. select() helps, but STDERR should be unbuffered in first
+  place.
+
+- If something goes wrong during the ./t/TEST's phase when all the
+  configuration files httpd.conf, etc. are generated,
+  t/conf/apache_test_config.pm now gets written, so t/TEST -clean can work
+  However if the problem happens during 'make test'  for 
+  some reason Makefile doesn't abort on exit from test_clean target, no 
+  matter if I put exit -1, 0 or 1, and proceeds with run_tests target. 
+  probably, since __DIE__ will stop the server.
+
+  to reproduce the problem during configure() apply this patch:
+
+Index: Apache-Test/lib/Apache/TestConfigPerl.pm
+===================================================================
+RCS file: /home/cvs/httpd-test/perl-framework/Apache-Test/lib/Apache/TestConfigPerl.pm,v
+retrieving revision 1.38
+diff -u -r1.38 TestConfigPerl.pm
+--- Apache-Test/lib/Apache/TestConfigPerl.pm    2001/10/18 04:18:16     1.38
++++ Apache-Test/lib/Apache/TestConfigPerl.pm    2001/10/19 02:14:56
+@@ -347,6 +347,7 @@
+     if (open $fh, $file) {
+         my $content = <$fh>;
+         close $fh;
++        require $file;
+         if ($content =~ /APACHE_TEST_CONFIGURE/m) {
+             eval { require $file };
+             warn $@ if $@; 
+
+- segfaults should be trapped and:
+  * the test routine should be aborted, since it's possible that some
+    other test will segfault too and overwrite the core file
+
+  * it'd be cool to automatically generate the backtrace with help of
+    Devel::CoreStack and save it in the file
+
+  * once we add the backtrace feature, we don't have to abort the rest
+    of the tests, but to save each bt as "backtrace.$test_path".
+    => this should be very useful in smoke testing
+
+  * later, it'd be nice to integrate this with build/bugreport.pl, so
+    the bug report with the backtrace and everything we want to know
+    from user's machine, including their /etc/shadow (:-) will be
+    automatically posted to the list.
+

@@ -1,0 +1,45 @@
+LoadModule cplusplus_module @CPLUSPLUS_BUILDDIR@/src/.libs/libmod_cplusplus@SHLIB_EXT@
+PassCPPServerVar tolower Host 
+LoadCPPHandler test_handler @CPLUSPLUS_BUILDDIR@/example/handler/.libs/libtest_handler@SHLIB_EXT@
+LoadCPPHandler test_auth @CPLUSPLUS_BUILDDIR@/example/handler/.libs/libtest_handler@SHLIB_EXT@
+LoadCPPHandler test_output_filter @CPLUSPLUS_BUILDDIR@/example/output_filter/.libs/libtest_output@SHLIB_EXT@
+LoadCPPHandler test_input_filter @CPLUSPLUS_BUILDDIR@/example/input_filter/.libs/libtest_input@SHLIB_EXT@
+
+LogLevel Info
+<Location />
+        Order allow,deny
+        Allow from all
+</Location>
+
+AddCPPConnectionInputFilter test_input_filter
+#AddCPPConnectionOutputFilter test_output_filter
+<Location /cpp-handler>
+	AddCPPHandler test_handler
+</Location>
+
+<Location /cpp-auth>
+        AuthType Basic
+        AuthName foobar
+
+        require valid-user
+        PassCPPVar user sterling
+        AddCPPHandler test_auth
+	AddCPPHandler test_handler
+</Location>
+
+<Location /cpp-output>
+	AddCPPHandler test_handler
+	AddCPPOutputFilter test_output_filter
+</Location>
+
+<Location /cpp-input>
+	AddCPPHandler test_handler
+</Location>
+
+Listen 8528
+<VirtualHost _default_:8528>
+LoadCPPHandler test_protocol @CPLUSPLUS_BUILDDIR@/example/protocol/.libs/libtest_protocol@SHLIB_EXT@
+
+AddCPPProtocol test_protocol
+</VirtualHost>
+

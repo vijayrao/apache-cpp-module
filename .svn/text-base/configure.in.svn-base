@@ -1,0 +1,80 @@
+AC_INIT(src/mod_cplusplus.c)
+AM_INIT_AUTOMAKE(mod_cplusplus, 1.1.0)
+
+AC_PROG_CC
+AC_PROG_CXX
+AM_PROG_LIBTOOL
+
+AC_CONFIG_HEADERS(config.h)
+dnl hack to get shlib extension
+AC_MSG_CHECKING(what the shared library extension is)
+eval SHLIB_EXT=\"$shrext\"
+if test "x$SHLIB_EXT" == "x" ; then
+        AC_MSG_RESULT(could not determine shared library extension.  Defaulting to .so)
+	SHLIB_EXT=".so"
+fi
+AC_MSG_RESULT($SHLIB_EXT)
+AC_SUBST(SHLIB_EXT)
+
+AC_MSG_CHECKING(for apxs)
+AC_ARG_WITH(apxs,   [  --with-apxs         Specify path to apxs ],
+[
+        if test -f $withval; then
+                apache_inc=`$withval -q INCLUDEDIR`
+                apr_inc=`$withval -q APR_INCLUDEDIR`
+                apu_inc=`$withval -q APU_INCLUDEDIR`
+				cflags=`$withval -q CFLAGS`
+				cxxflags=`$withval -q CXXFLAGS`
+				extra_cppflags=`$withval -q EXTRA_CPPFLAGS`
+				extra_cflags=`$withval -q EXTRA_CFLAGS`
+		INCLUDES="-I$apache_inc -I$apr_inc -I$apu_inc -I$apr_inc -I$apu_inc"
+		HTTPD_DIR=`$withval -q PREFIX`
+		CONF_DIR=`$withval -q SYSCONFDIR`
+		MODULES_DIR=`$withval -q LIBEXECDIR`
+		APXS=$withval
+               CPPFLAGS="$CPPFLAGS $INCLUDES $cflags $cxxflags $extra_cppflags $extra_cflags"
+               AC_MSG_RESULT(found $withval)
+        else
+                AC_MSG_RESULT($withval not found)
+                withval="$withval/apxs"
+                if test -f $withval ; then
+                        AC_MSG_RESULT(found $withval)
+                	apache_inc=`$withval -q INCLUDEDIR`
+                	apr_inc=`$withval -q APR_INCLUDEDIR` 
+                	apu_inc=`$withval -q APU_INCLUDEDIR`
+					cflags=`$withval -q CFLAGS`
+					cxxflags=`$withval -q CXXFLAGS`
+					extra_cppflags=`$withval -q EXTRA_CPPFLAGS`
+					extra_cflags=`$withval -q EXTRA_CFLAGS`
+                	INCLUDES="-I$apache_inc -I$apr_inc -I$apu_inc"
+			HTTPD_DIR=`$withval -q PREFIX`
+                	CONF_DIR=`$withval -q SYSCONFDIR`
+                	MODULES_DIR=`$withval -q LIBEXECDIR`
+                	APXS=$withval
+               		CPPFLAGS="$CPPFLAGS $INCLUDES $cflags $cxxflags $extra_cppflags $extra_cflags"
+                else
+                        AC_MSG_ERROR($withval not found. APXS installation cannot be located!)
+                fi
+        fi
+],)
+
+if test "x$INCLUDES" == "x" ; then
+	AC_MSG_ERROR(could not generate includes with apxs set to "$APXS" - you must specify a valid path to apxs using the --with-apxs flag)
+fi
+
+AC_CHECK_LIB(stdc++, __gxx_personality_v0, LIB_STDCPP="-lstdc++")
+    if test "$LIB_STDCPP" == "" ; then
+	CPPFLAGS="$CPPFLAGS -DNO_STDCPP"
+    fi 
+CPLUSPLUS_BUILDDIR=`pwd`
+CPPFLAGS="$CPPFLAGS -Wall -Werror -g -I$CPLUSPLUS_BUILDDIR/include"
+
+AC_SUBST(CPLUSPLUS_BUILDDIR)
+AC_SUBST(MODULES_DIR)
+AC_SUBST(INCLUDES)
+AC_SUBST(CONF_DIR)
+AC_SUBST(APXS)
+AC_SUBST(CFLAGS)
+AC_SUBST(LIB_STDCPP)
+
+AC_OUTPUT(Makefile src/Makefile example/Makefile example/handler/Makefile example/input_filter/Makefile example/output_filter/Makefile example/protocol/Makefile test/Makefile test/t/conf/extra.conf docs/Makefile)

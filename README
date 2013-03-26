@@ -1,0 +1,25 @@
+mod_cplusplus is a proper apache module which allows you to load cpp objects 
+as handlers for Apache-2.0.  It differs from other modules i've seen in that 
+it manages the loading and calling of separate shared objects containing your
+handler classes.  This allows you to easily and cleanly run an entire site
+with c++ handlers.
+
+Simply subclass from ApacheHandler and implement whichever methods you are interested in:
+
+    virtual int handler()
+    virtual int fixups()
+    virtual int post_read_request() 
+    virtual int translate_name() 
+    virtual int header_parser()
+    virtual int check_user_id()
+    virtual int access_checker()
+    virtual int auth_checker()
+    virtual int type_checker()
+    virtual int logger()
+
+there is also a built in utility to fetch config directives (passed using 
+PassCPPVar directive):
+    char *get_cpp_var(r, name)
+
+You only need to override the methods you want to handle for the given object, 
+otherwise that phase will be declined.

@@ -1,0 +1,8 @@
+Now to configure mod_cplusplus you only need to specify the path to apxs, for example if apxs is in /usr/sbin - simply type:
+
+./autogen.sh --with-apxs=/usr/sbin/apxs
+
+once that completes type 'make' and then 'make check' to run the tests.
+
+
+

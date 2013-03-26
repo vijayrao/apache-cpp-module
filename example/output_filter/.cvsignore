@@ -1,0 +1,6 @@
+.deps
+.libs
+Makefile
+Makefile.in
+libtest_output.la
+test_output.lo

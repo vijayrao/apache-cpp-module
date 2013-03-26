@@ -1,0 +1,4 @@
+#this file will be Include-d by @ServerRoot@/httpd.conf
+
+#the subclass inside t/TEST added the authname and allowed_users variables
+

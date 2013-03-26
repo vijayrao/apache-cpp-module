@@ -1,0 +1,11 @@
+K 10
+svn:ignore
+V 64
+.deps
+.libs
+Makefile
+Makefile.in
+libtest_input.la
+test_input.lo
+
+END

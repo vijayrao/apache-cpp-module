@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="90"
+   name=""
+   committed-date="2003-08-14T12:13:41.000000Z"
+   url="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus/trunk/test/Apache-Test/t/conf"
+   last-author="johnksterling"
+   kind="dir"
+   uuid="33a4bdb1-fc2c-0410-adb7-ce8b349632fb"
+   repos="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus"
+   prop-time="2008-07-08T00:11:17.000000Z"
+   revision="157"/>
+<entry
+   committed-rev="90"
+   name="extra.conf.in"
+   text-time="2008-07-08T00:11:17.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="f42988d35256a39ce0e8fdb0f9561920"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+<entry
+   committed-rev="90"
+   name=".cvsignore"
+   text-time="2008-07-08T00:11:17.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="e1de91d1dc4fcfb29bf0ebd8e1c23100"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+</wc-entries>

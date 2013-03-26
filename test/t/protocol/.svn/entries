@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="156"
+   name=""
+   committed-date="2008-07-02T03:15:04.048006Z"
+   url="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus/trunk/test/t/protocol"
+   last-author="johnksterling"
+   kind="dir"
+   uuid="33a4bdb1-fc2c-0410-adb7-ce8b349632fb"
+   repos="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus"
+   revision="157"/>
+<entry
+   committed-rev="156"
+   name="protocol.t"
+   text-time="2008-07-08T00:11:17.000000Z"
+   committed-date="2008-07-02T03:15:04.048006Z"
+   checksum="eacbefd29bde55a77ddf31bccbd206b8"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+</wc-entries>

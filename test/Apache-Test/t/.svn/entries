@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="90"
+   name=""
+   committed-date="2003-08-14T12:13:41.000000Z"
+   url="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus/trunk/test/Apache-Test/t"
+   last-author="johnksterling"
+   kind="dir"
+   uuid="33a4bdb1-fc2c-0410-adb7-ce8b349632fb"
+   repos="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus"
+   prop-time="2008-07-08T00:11:17.000000Z"
+   revision="157"/>
+<entry
+   committed-rev="33"
+   name="TEST"
+   text-time="2008-07-08T00:11:17.000000Z"
+   committed-date="2001-05-22T19:58:47.000000Z"
+   checksum="be187d49a12bf1871dd2deec95176b9b"
+   last-author="gr84b8"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+<entry
+   committed-rev="58"
+   name="ping.t"
+   text-time="2008-07-08T00:11:17.000000Z"
+   committed-date="2001-12-30T15:42:56.000000Z"
+   checksum="9e543b4a70e603ef08022c56550e721e"
+   last-author="gr84b8"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+<entry
+   name="conf"
+   kind="dir"/>
+<entry
+   committed-rev="90"
+   name="TEST.PL"
+   text-time="2008-07-08T00:11:17.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="fd61ae385dbe2ddb6ee54e441f91e504"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+<entry
+   committed-rev="33"
+   name="request.t"
+   text-time="2008-07-08T00:11:17.000000Z"
+   committed-date="2001-05-22T19:58:47.000000Z"
+   checksum="c779d9f986c05fbc8b874129e82bb0e8"
+   last-author="gr84b8"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+<entry
+   committed-rev="90"
+   name=".cvsignore"
+   text-time="2008-07-08T00:11:17.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="e786009fc9a3e07e5f155f5958fd4eb2"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+</wc-entries>

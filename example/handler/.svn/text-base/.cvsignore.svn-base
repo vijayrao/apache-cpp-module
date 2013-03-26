@@ -1,0 +1,7 @@
+.deps
+.libs
+Makefile
+Makefile.in
+libtest_handler.la
+test_auth.lo
+test_handler.lo

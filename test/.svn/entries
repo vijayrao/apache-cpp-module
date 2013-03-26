@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="156"
+   name=""
+   committed-date="2008-07-02T03:15:04.048006Z"
+   url="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus/trunk/test"
+   last-author="johnksterling"
+   kind="dir"
+   uuid="33a4bdb1-fc2c-0410-adb7-ce8b349632fb"
+   repos="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus"
+   prop-time="2008-07-08T00:11:19.000000Z"
+   revision="157"/>
+<entry
+   name="t"
+   kind="dir"/>
+<entry
+   committed-rev="124"
+   name="Makefile.am"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2004-11-26T18:39:34.000000Z"
+   checksum="ad554b6822b631c228be7950a2ce589a"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+<entry
+   committed-rev="71"
+   name=".cvsignore"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2002-04-21T19:06:31.000000Z"
+   checksum="55912a17abb16125adb39482c299991e"
+   last-author="gr84b8"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+<entry
+   name="Apache-Test"
+   kind="dir"/>
+</wc-entries>

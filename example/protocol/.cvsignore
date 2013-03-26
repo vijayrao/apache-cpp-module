@@ -1,0 +1,6 @@
+.deps
+.libs
+Makefile
+Makefile.in
+libtest_protocol.la
+test_protocol.lo

@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="90"
+   name=""
+   committed-date="2003-08-14T12:13:41.000000Z"
+   url="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus/trunk/test/Apache-Test/lib/Apache"
+   last-author="johnksterling"
+   kind="dir"
+   uuid="33a4bdb1-fc2c-0410-adb7-ce8b349632fb"
+   repos="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus"
+   revision="157"/>
+<entry
+   committed-rev="90"
+   name="TestRun.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="56fd580a1cb118c3e5044f1506be3b76"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+<entry
+   committed-rev="87"
+   name="TestSSLCA.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:38.000000Z"
+   checksum="00d807f602009c2e61c5ac6bcacddfc5"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="90"
+   name="TestConfig.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="74c274c113f8de1336c126026b786e79"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="90"
+   name="TestServer.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="2208d15327604dee827ef30d1a91f8b7"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="90"
+   name="TestConfigC.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="3705ab0f880e318d868f0739217ca807"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="55"
+   name="TestPerlDB.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2001-12-30T15:42:53.000000Z"
+   checksum="7f20e71c7deb1b9ba52879921886b2e6"
+   last-author="gr84b8"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="90"
+   name="TestMM.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="b94c79e59abd21616f4ad72449b51d2e"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="87"
+   name="TestReport.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:38.000000Z"
+   checksum="dd98465f403502b01f93986223a9386b"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="90"
+   name="TestUtil.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="4b53bd6db3863088cb70bbb33cf726f0"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="90"
+   name="TestHandler.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="0d442866a93cd5b4255f6661da585c88"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="87"
+   name="TestSmoke.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:38.000000Z"
+   checksum="80dd417ccfdb42a25319e46dc9723b9e"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="87"
+   name="TestClient.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:38.000000Z"
+   checksum="ef444934f86f243d5185a14e45ac8267"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="90"
+   name="Test.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="f4e0d68f7ee7f14b0a388d9d3982a7b2"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="90"
+   name="TestSort.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="ff22b24bc759db9efc28f26213cce2de"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="90"
+   name="TestRunPerl.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="a0c102187c067afc3e8058e8d0f8d69c"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="90"
+   name="TestConfigPerl.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="55438af900f4724213fff4f7301ae277"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="87"
+   name="TestCommon.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:38.000000Z"
+   checksum="95ef14a631c7b83c202414d3a2a31507"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="90"
+   name="TestRequest.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="68dee0416368db98462abc8585dab297"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="87"
+   name="Test5005compat.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:38.000000Z"
+   checksum="489b74a6bc24a161f2835f0281033096"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="87"
+   name="TestReportPerl.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:38.000000Z"
+   checksum="067ff9aa5988a729bcef5d0839f808bc"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="87"
+   name="TestCommonPost.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:38.000000Z"
+   checksum="fd6c98acb53220d31057d394b10be274"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="90"
+   name="TestTrace.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="d07b944b2bfa5dbfd3f714ef1a2e9e38"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="87"
+   name="TestBuild.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:38.000000Z"
+   checksum="1033e05ed8513b6340e835cbe5bb5436"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:18.000000Z"/>
+<entry
+   committed-rev="90"
+   name="TestConfigParse.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="450fae4e8c0a36e0870aff0b445af544"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+<entry
+   committed-rev="87"
+   name="TestSmokePerl.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:38.000000Z"
+   checksum="e17331f0f21b3c0c01bd04f9c36f300c"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+<entry
+   committed-rev="90"
+   name="TestHarness.pm"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="8e4ccf1d737d76e6a06097eec7d265de"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+</wc-entries>

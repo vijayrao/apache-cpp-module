@@ -1,0 +1,2 @@
+test_handler.so: 
+	g++ -I@CPLUSPLUS_BUILDDIR@/include @INCLUDES@ -o test_handler.so -shared test_handler.cpp

@@ -1,0 +1,39 @@
+2004-05-11  John K. Sterling <john@sterls.com>
+	*  Modified the build to be more flexible in lieu of various 
+ 	   linux distributions putting apache includes
+           in a special place.  Also properly sniff out libtoolize->glibtoolize
+2002-06-16  John K. Sterling <john@sterls.com>	
+	*  Made additional changes to support win32.  The code and dso work
+	   should be complete, but the dsp project file has lots of hardcoded
+	   paths.  Until I am able to get a win32 build machine up I will check
+	   this in and request that it be made more generic.
+	   (Submitted by John P. Coffey <coffeyj@rcn.com>)
+2002-05-03  John K. Sterling <john@sterls.com
+	*  Change the dso work to use apr instead of direct calls to dlopen.  This
+	   will help with the porting effort.
+2002-04-25  John K. Sterling <john@sterls.com>
+	*  Added enviroment decode class to decode request parameters.
+           Handles both get and post requests, and also features
+           cpp streams output support.  Modified examples/handler/test_handler.cpp
+           to show an example of the classes in use.
+           Also added a few include gards in header files,
+           and created a dontdiff file to allow easier creation of patches. 
+	   (Submitted by: Nathan Stitt <nathan@stitt.org>)
+2002-04-21  John K. Sterling <john@sterls.com>
+	*  fix a bug in the example... we were not initializing the
+	   mHits counter.
+	   (Submitted by: Nathan Stitt <nathan@stitt.org>) 
+2002-04-21  John K. Sterling <john@sterls.com>
+	*  add cvs ignores for cleanliness 
+2002-04-21  John K. Sterling <john@sterls.com>
+	*  Now we bundle everything with autotools for reproducable tarballs 
+2002-04-16  John K. Sterling <john@sterls.com>
+	*  Add proper support for post and put to the examples. also added
+	   in the discard_request_body method  
+	   (Submitted by: Nathan Stitt <nathan@stitt.org>) 
+2001-11-12  John K. Sterling  <john@sterls.com>
+        *  Add support for stl strings (Submitted by: kurtb149 Kurt M. Brown) 
+2001-07-21  John K. Sterling  <john@sterls.com>
+        *  Ok, now filtering is done
+2001-05-08  John K. Sterling  <john@sterls.com>
+	*  Initial Import

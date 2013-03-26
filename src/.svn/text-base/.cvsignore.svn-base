@@ -1,0 +1,15 @@
+.deps
+.libs
+Makefile
+Makefile.in
+apache_filters.lo
+apache_handler.lo
+apache_protocol.lo
+cpp_request.lo
+cpp_server.lo
+libmod_cplusplus.la
+mod_cplusplus.lo
+apache_output_buffer.lo
+env_hash.lo
+env_value.lo
+request_env.lo

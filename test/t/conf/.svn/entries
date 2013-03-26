@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="150"
+   name=""
+   committed-date="2006-01-21T21:45:36.000000Z"
+   url="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus/trunk/test/t/conf"
+   last-author="johnksterling"
+   kind="dir"
+   uuid="33a4bdb1-fc2c-0410-adb7-ce8b349632fb"
+   repos="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus"
+   prop-time="2008-07-08T00:11:17.000000Z"
+   revision="157"/>
+<entry
+   committed-rev="32"
+   name="mime.types"
+   text-time="2008-07-08T00:11:17.000000Z"
+   committed-date="2001-05-22T19:52:15.000000Z"
+   checksum="240132b933f21759a3b77891e52e2b7c"
+   last-author="gr84b8"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+<entry
+   committed-rev="150"
+   name="extra.conf.in"
+   text-time="2008-07-08T00:11:17.000000Z"
+   committed-date="2006-01-21T21:45:36.000000Z"
+   checksum="bb272423f4a18ddcca0271da9adb4088"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+<entry
+   committed-rev="71"
+   name=".cvsignore"
+   text-time="2008-07-08T00:11:17.000000Z"
+   committed-date="2002-04-21T19:06:31.000000Z"
+   checksum="40634c40bfd74a19b6779c81d21935ea"
+   last-author="gr84b8"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+</wc-entries>

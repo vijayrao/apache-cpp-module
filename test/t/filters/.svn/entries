@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="113"
+   name=""
+   committed-date="2004-05-18T02:50:18.000000Z"
+   url="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus/trunk/test/t/filters"
+   last-author="johnksterling"
+   kind="dir"
+   uuid="33a4bdb1-fc2c-0410-adb7-ce8b349632fb"
+   repos="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus"
+   revision="157"/>
+<entry
+   committed-rev="113"
+   name="input.t"
+   text-time="2008-07-08T00:11:17.000000Z"
+   committed-date="2004-05-18T02:50:18.000000Z"
+   checksum="f1150f5adc1cdc91747457478adc679e"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+<entry
+   committed-rev="94"
+   name="output.t"
+   text-time="2008-07-08T00:11:17.000000Z"
+   committed-date="2003-08-15T22:46:03.000000Z"
+   checksum="6febda9aeeb47355f90e8a1d685fa88c"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+</wc-entries>

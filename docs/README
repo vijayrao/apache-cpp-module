@@ -1,0 +1,1 @@
+In this directory lives an example module and a sample makefile (which works on most linux platforms, but will give you the picture on other platforms).  The bottom line is that you need to have apache and mod_cplusplus on the include path.  Plus you should link in the apr and apr-util libs.

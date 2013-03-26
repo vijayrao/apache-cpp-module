@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="156"
+   name=""
+   committed-date="2008-07-02T03:15:04.048006Z"
+   url="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus/trunk/example"
+   last-author="johnksterling"
+   kind="dir"
+   uuid="33a4bdb1-fc2c-0410-adb7-ce8b349632fb"
+   repos="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus"
+   prop-time="2008-07-08T00:11:21.000000Z"
+   revision="157"/>
+<entry
+   name="protocol"
+   kind="dir"/>
+<entry
+   name="input_filter"
+   kind="dir"/>
+<entry
+   name="output_filter"
+   kind="dir"/>
+<entry
+   committed-rev="46"
+   name="Makefile.am"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2001-06-04T00:40:35.000000Z"
+   checksum="cd0c423f6afb69ab16eed63602aca36b"
+   last-author="gr84b8"
+   kind="file"
+   prop-time="2008-07-08T00:11:20.000000Z"/>
+<entry
+   name="handler"
+   kind="dir"/>
+<entry
+   committed-rev="71"
+   name=".cvsignore"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2002-04-21T19:06:31.000000Z"
+   checksum="26f08908d0224edf3c0936d2d9ff132c"
+   last-author="gr84b8"
+   kind="file"
+   prop-time="2008-07-08T00:11:20.000000Z"/>
+</wc-entries>

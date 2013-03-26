@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="156"
+   name=""
+   committed-date="2008-07-02T03:15:04.048006Z"
+   url="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus/trunk/include"
+   last-author="johnksterling"
+   kind="dir"
+   uuid="33a4bdb1-fc2c-0410-adb7-ce8b349632fb"
+   repos="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus"
+   revision="157"/>
+<entry
+   committed-rev="150"
+   name="apache_filters.h"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2006-01-21T21:45:36.000000Z"
+   checksum="1c4b8eac9fe86258e66c9b03b66c7e6b"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+<entry
+   committed-rev="156"
+   name="mod_cplusplus.h"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2008-07-02T03:15:04.048006Z"
+   checksum="64584f697a5267df5d803933ffee33aa"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+<entry
+   committed-rev="152"
+   name="apache_output_buffer.h"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2007-03-31T12:15:22.000000Z"
+   checksum="443ae1145df4fc6f423578b80ffef6d4"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+<entry
+   committed-rev="148"
+   name="cpp_request.h"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2005-10-13T15:56:23.000000Z"
+   checksum="c5aa5e905fe4ebf4da172499b83f011d"
+   last-author="francisandre"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+<entry
+   committed-rev="104"
+   name="env_hash.h"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-09-26T01:25:59.000000Z"
+   checksum="8c4ce1183f85dcbd85b69378aebdc501"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+<entry
+   committed-rev="150"
+   name="apache_handler.h"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2006-01-21T21:45:36.000000Z"
+   checksum="1d8a5deb6da5ea5e65d3bd20efcbfc0f"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+<entry
+   committed-rev="135"
+   name="request_env.h"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2005-02-27T22:37:29.000000Z"
+   checksum="b0167163c99e539bc231b0fb946569f4"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+<entry
+   committed-rev="150"
+   name="apache_protocol.h"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2006-01-21T21:45:36.000000Z"
+   checksum="afceb140b9263b9823ce2f492f1e689a"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+<entry
+   committed-rev="135"
+   name="env_value.h"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2005-02-27T22:37:29.000000Z"
+   checksum="4247154cc10a4ebff345016d0b7c3392"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+<entry
+   committed-rev="86"
+   name="cpp_server.h"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2002-09-01T02:26:34.000000Z"
+   checksum="b53c496ce1cc02a9c8d27a98b8d4c186"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+</wc-entries>

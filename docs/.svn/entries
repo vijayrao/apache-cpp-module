@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="126"
+   name=""
+   committed-date="2004-11-27T03:36:18.000000Z"
+   url="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus/trunk/docs"
+   last-author="johnksterling"
+   kind="dir"
+   uuid="33a4bdb1-fc2c-0410-adb7-ce8b349632fb"
+   repos="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus"
+   prop-time="2008-07-08T00:11:20.000000Z"
+   revision="157"/>
+<entry
+   committed-rev="126"
+   name="Makefile.in"
+   text-time="2008-07-08T00:11:20.000000Z"
+   committed-date="2004-11-27T03:36:18.000000Z"
+   checksum="0764b2411cb1108146fc180cbb9a6f53"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:20.000000Z"/>
+<entry
+   committed-rev="109"
+   name=".cvsignore"
+   text-time="2008-07-08T00:11:20.000000Z"
+   committed-date="2003-09-27T15:20:20.000000Z"
+   checksum="a8f373c9089da673e120c99f2ba757b7"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:20.000000Z"/>
+<entry
+   committed-rev="101"
+   name="README"
+   text-time="2008-07-08T00:11:20.000000Z"
+   committed-date="2003-08-20T01:21:18.000000Z"
+   checksum="bccb150ca3a64b29cff3eb32a82d8a6e"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:20.000000Z"/>
+<entry
+   committed-rev="100"
+   name="test_handler.cpp"
+   text-time="2008-07-08T00:11:20.000000Z"
+   committed-date="2003-08-20T01:16:13.000000Z"
+   checksum="12defd0e6100149eb03f3fb7262a3fa5"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:20.000000Z"/>
+</wc-entries>

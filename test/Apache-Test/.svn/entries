@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="90"
+   name=""
+   committed-date="2003-08-14T12:13:41.000000Z"
+   url="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus/trunk/test/Apache-Test"
+   last-author="johnksterling"
+   kind="dir"
+   uuid="33a4bdb1-fc2c-0410-adb7-ce8b349632fb"
+   repos="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus"
+   prop-time="2008-07-08T00:11:19.000000Z"
+   revision="157"/>
+<entry
+   committed-rev="87"
+   name="install-pl"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:38.000000Z"
+   checksum="8efdf90d3376585b9b70126345cedfa3"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+<entry
+   committed-rev="87"
+   name="LICENSE"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:38.000000Z"
+   checksum="28d17470b74e1372341b341e04566308"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+<entry
+   name="t"
+   kind="dir"/>
+<entry
+   committed-rev="90"
+   name="ToDo"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="6289ce78c878cc4eafae5b2f6d50f6e7"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+<entry
+   name="lib"
+   kind="dir"/>
+<entry
+   committed-rev="90"
+   name="MANIFEST"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="7884050bb00e2ce5364453c71c52bdec"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+<entry
+   committed-rev="90"
+   name="Makefile.PL"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="6d5345072a0126f38eaece2101a6b133"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+<entry
+   committed-rev="87"
+   name="Changes"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:38.000000Z"
+   checksum="c23d3ae09539a6d9d4922ce7d1469a11"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+<entry
+   committed-rev="90"
+   name=".cvsignore"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="3fc20dc8ba5a1432995f18dd02fd7f95"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+<entry
+   committed-rev="90"
+   name="README"
+   text-time="2008-07-08T00:11:19.000000Z"
+   committed-date="2003-08-14T12:13:41.000000Z"
+   checksum="9c5e69faaa7a1fdcec6ce155cf961052"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:19.000000Z"/>
+</wc-entries>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="150"
+   name=""
+   committed-date="2006-01-21T21:45:36.000000Z"
+   url="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus/trunk/example/input_filter"
+   last-author="johnksterling"
+   kind="dir"
+   uuid="33a4bdb1-fc2c-0410-adb7-ce8b349632fb"
+   repos="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus"
+   prop-time="2008-07-08T00:11:20.000000Z"
+   revision="157"/>
+<entry
+   committed-rev="150"
+   name="test_input.cpp"
+   text-time="2008-07-08T00:11:20.000000Z"
+   committed-date="2006-01-21T21:45:36.000000Z"
+   checksum="f1f14182a10c1f39d9b8634280138e85"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:20.000000Z"/>
+<entry
+   committed-rev="150"
+   name="test_input.h"
+   text-time="2008-07-08T00:11:20.000000Z"
+   committed-date="2006-01-21T21:45:36.000000Z"
+   checksum="f7e74f4cca3661bf56accf4ec0ea62e8"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:20.000000Z"/>
+<entry
+   committed-rev="96"
+   name="Makefile.am"
+   text-time="2008-07-08T00:11:20.000000Z"
+   committed-date="2003-08-16T01:34:04.000000Z"
+   checksum="96326486515608e4e70658d8848812cf"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:20.000000Z"/>
+<entry
+   committed-rev="71"
+   name=".cvsignore"
+   text-time="2008-07-08T00:11:20.000000Z"
+   committed-date="2002-04-21T19:06:31.000000Z"
+   checksum="54f8a8d48a5ca9d68432202e872db5e4"
+   last-author="gr84b8"
+   kind="file"
+   prop-time="2008-07-08T00:11:20.000000Z"/>
+</wc-entries>

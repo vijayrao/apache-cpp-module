@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="156"
+   name=""
+   committed-date="2008-07-02T03:15:04.048006Z"
+   url="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus/trunk/example/handler"
+   last-author="johnksterling"
+   kind="dir"
+   uuid="33a4bdb1-fc2c-0410-adb7-ce8b349632fb"
+   repos="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus"
+   prop-time="2008-07-08T00:11:21.000000Z"
+   revision="157"/>
+<entry
+   committed-rev="150"
+   name="test_auth.cpp"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2006-01-21T21:45:36.000000Z"
+   checksum="38ecd8b45f743315a5285b0ebc57accd"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:20.000000Z"/>
+<entry
+   committed-rev="150"
+   name="test_handler.h"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2006-01-21T21:45:36.000000Z"
+   checksum="e8ffe874589821e5d0a98e1a6fb9a22e"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:20.000000Z"/>
+<entry
+   committed-rev="150"
+   name="test_auth.h"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2006-01-21T21:45:36.000000Z"
+   checksum="646505485e9bed5e92c2d371286b4e2b"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:20.000000Z"/>
+<entry
+   committed-rev="96"
+   name="Makefile.am"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2003-08-16T01:34:04.000000Z"
+   checksum="208022b26f10fce1d57372c42b19dca8"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:20.000000Z"/>
+<entry
+   committed-rev="71"
+   name=".cvsignore"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2002-04-21T19:06:31.000000Z"
+   checksum="183f1c6515a8091dcb4fc3147cd9b7e8"
+   last-author="gr84b8"
+   kind="file"
+   prop-time="2008-07-08T00:11:21.000000Z"/>
+<entry
+   committed-rev="156"
+   name="test_handler.cpp"
+   text-time="2008-07-08T00:11:21.000000Z"
+   committed-date="2008-07-02T03:15:04.048006Z"
+   checksum="fa4c6f0fb179567532f775c9bfe083eb"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:21.000000Z"/>
+</wc-entries>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="156"
+   name=""
+   committed-date="2008-07-02T03:15:04.048006Z"
+   url="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus/trunk/test/t/handler"
+   last-author="johnksterling"
+   kind="dir"
+   uuid="33a4bdb1-fc2c-0410-adb7-ce8b349632fb"
+   repos="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus"
+   revision="157"/>
+<entry
+   committed-rev="156"
+   name="handler.t"
+   text-time="2008-07-08T00:11:17.000000Z"
+   committed-date="2008-07-02T03:15:04.048006Z"
+   checksum="571ff7cb68ef7aa7f476d332a26ed403"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+<entry
+   committed-rev="94"
+   name="auth.t"
+   text-time="2008-07-08T00:11:17.000000Z"
+   committed-date="2003-08-15T22:46:03.000000Z"
+   checksum="5d6dc0d4a0ed6b7e259a5cd696c53c8a"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+</wc-entries>

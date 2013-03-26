@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="156"
+   name=""
+   committed-date="2008-07-02T03:15:04.048006Z"
+   url="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus/trunk/test/t"
+   last-author="johnksterling"
+   kind="dir"
+   uuid="33a4bdb1-fc2c-0410-adb7-ce8b349632fb"
+   repos="https://modcplusplus.svn.sourceforge.net/svnroot/modcplusplus"
+   prop-time="2008-07-08T00:11:17.000000Z"
+   revision="157"/>
+<entry
+   name="protocol"
+   kind="dir"/>
+<entry
+   committed-rev="86"
+   name="CPPTest"
+   text-time="2008-07-08T00:11:17.000000Z"
+   committed-date="2002-09-01T02:26:34.000000Z"
+   checksum="8a46ee32d5e9c5133d05da5b11dcfce1"
+   last-author="johnksterling"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+<entry
+   name="conf"
+   kind="dir"/>
+<entry
+   name="filters"
+   kind="dir"/>
+<entry
+   name="handler"
+   kind="dir"/>
+<entry
+   committed-rev="71"
+   name=".cvsignore"
+   text-time="2008-07-08T00:11:17.000000Z"
+   committed-date="2002-04-21T19:06:31.000000Z"
+   checksum="cc652b9ea636c80ee379bc324c8e164b"
+   last-author="gr84b8"
+   kind="file"
+   prop-time="2008-07-08T00:11:17.000000Z"/>
+</wc-entries>
